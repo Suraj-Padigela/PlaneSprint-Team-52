@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HOUSE DETAILS PAGE</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav id="navbar" class="navbar-white">
+            <img src="images/logo-red.png" class="logo">
+            <ul class="nav-links">
+                <li><a href="index2.html" >Home</a></li>
+                <li><a href="listing.html" >Online Packages</a></li>
+                    <li><a href="House.html" class="active">Wenge House</a></li>
+                   
+            </ul>
+            <a href="#" class="regular-btn">Register Now</a>
+            <i class="fas fa-bars" onclick="togglebtn()"></i>
+        </nav>
+       <div class="housedetials" >
+        <div class="house-title"><h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    <span>245 reviews</span>
+                </div>
+                <div><p>location: san francisco ,california,united states</p></div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="images/house-1.png"></div>
+            <div><img src="images/house-2.png"></div>
+            <div><img src="images/house-3.png"></div>
+            <div><img src="images/house-4.png"></div>
+            <div><img src="images/house-5.png"></div>
+        </div>
+        <div class="smalldetails">
+            <h2>entire rental unit housed by brandon</h2>
+            <p>2 guest &nbsp; &nbsp;2 beds &nbsp; &nbsp;1 bathroom &nbsp; &nbsp;</p>
+            <h4>
+               $100 /perday
+            </h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>check in</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div>
+                <label>check out</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div class="guest-field">
+                <label>guest</label>
+                <input type="text" placeholder="2 guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+        <ul class="detailslist">
+            <li><i class="fa-solid fa-house"></i>entire house<span>you will have the entire house for you</span></li>
+            <li><i class="fa-solid fa-paint-roller"></i>enhanced house<span>this host has commited to stayhub's cleaning process</span></li>
+            <li><i class="fa-solid fa-map-location-dot"></i>great location<span>98% of guest gave location a 5 star</span></li>
+            <li><i class="fa-solid fa-heart"></i>great checkin experience</li><span>100% of recent guest gave the check-in process a 5 star rating</span></li>
+        </ul>
+        <hr class="line">
+        <p class="home-desc">Guests will be allocated on the ground floor according to availability ,you get a 
+            comfortable two bedroom apartment has a true city feelings.the price quoted is 
+            for two guest,at the guest slot please mark the number of guests to get the exact 
+            price gor groups.</p>
+            <hr class="line">
+            <div class="map">
+                <h3>location on map</h3>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.1815991143!2d-122.52000090905499!3d37.7576713151067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1687846688986!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <b> san francisco,california,united states</b>
+               <p>its like a home away from home.</p>
+            </div>
+            <hr class="line">
+            <div class="host">
+                <img src="images/host.png">
+                <div>
+                    <h2>hosted by bardon</h2>
+                    <p><span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </span>&nbsp; &nbsp; 245 reviews &nbsp; &nbsp; responce rate 100% &nbsp; &nbsp; responce time : 60min</p>
+                </div>
+            </div>
+            <a href="#" class="contact-host">Contact host </a>
+            </div>
+            <div class="container"> 
+                <div class="footer">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <hr>
+                    <p>Copyright @ 2023,Solution makers.</p>
+                </div>
+            </div>
+            <script>
+                var navBar=document.getElementById("navBar");
+                function togglebtn(){
+                    navBar.classList.toggle("hidemenu");
+                }
+            </script>
+
+    </body>
+</html>
